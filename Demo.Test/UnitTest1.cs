@@ -12,10 +12,10 @@ namespace Demo.Test
             Calculator _cal = new Calculator();
 
             // addition
-            Assert.AreEqual(_cal.add(10, 20),35);
+            Assert.AreEqual(_cal.add(10, 20),30);
 
             // substraction
-            Assert.AreEqual(_cal.sub(20, 20), 10);
+            Assert.AreEqual(_cal.sub(20, 20), 0);
 
             // multiplication
             Assert.AreEqual(_cal.mul(10, 20), 200);
